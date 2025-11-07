@@ -44,7 +44,6 @@ public class menuChoiceItems {
     }
 
     // ------------------- MENU CHOICE OPTION METHODS -------------------
-
     // Add Menu Method
     private static void addItem(Scanner in, ArrayList<String> list) {
         System.out.print("Enter the menu choice item to add: ");
@@ -80,7 +79,7 @@ public class menuChoiceItems {
 
     // ------------------- DISPLAY MENU CHOICE METHODS -------------------
 
-    // Display menu choice method
+    // Displaylist menu choice method
     private static void displayList(ArrayList<String> list) {
         System.out.println("\n==== CURRENT LIST ====");
         if (list.isEmpty()) {

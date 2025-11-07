@@ -170,7 +170,6 @@ public class SafeInput
             return input;
         }
 
-
         /**
          * Prints a "pretty" header with a centered message surrounded by asterisks.
          * <p>
@@ -214,7 +213,6 @@ public class SafeInput
                 System.out.print(STAR);
             }
             System.out.println();
-
         }
 
     /**
